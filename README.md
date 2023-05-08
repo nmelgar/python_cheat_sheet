@@ -26,4 +26,24 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 | Tuple () | Are immutable | Accepts duplicate elements |
 | count() |	Returns # times a specified val. occurs	|x=tuple.count(5) |
 | index() | Searches tuple for specified val.- returns pos.where it was found | x=tuple.index(6) |
+| --- | --- | --- |
+| Sets | Methods |  |
+| Sets {} | No mutable | Doesn't accept duplicate elements |
+| add() | Adds an elems. | set.add('dog') |
+| clear() |	Removes all elems. | fruits.clear() |
+| copy() | Returns copy of set | x=fruits.copy() |
+| difference() | Returns set containing difference between 2 or more sets | z=x.difference(y) |
+| difference_update() | Removes items in this set that are also included in another, specified set | x.difference_update(y) |
+| disdicd() | Remove specified item	| fruits.disdicd('dog') |
+| intersection() | Returns a set, that is intersection of two or sets | z=x.intersection(y) |
+| intersection_update() | Removes items that are not present in or, specified set(s) | x.intersection_update(y) |
+| isdisjoint() | Returns whether 2 sets have a intersection or not | z=x.isdisjoint(y) |
+| issubset() | Returns wher another set contains this set or not | z=x.issubset(y) |
+| issuperset() | Returns whether this set contains another set or not |	z=x.issuperset(y) |
+| pop() | Removes an elem. from set | fruits.pop() |
+| remove() | Removes specified elems. | fruits.remove('dog') |
+| symmetric_difference() | Returns set with symmetric differences of two sets | z=x.symmetric_difference(y) |
+| symmetric_difference_update() | inserts symmetric differences from this set and another | x.symmetric_difference_update(y) |
+| union() | Return a set containing union of sets | z=x.union(y) |
+| update() | Update set with union of this set and others |	x.update(y) |
 
