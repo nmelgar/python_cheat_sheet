@@ -2,6 +2,9 @@
 Use this repo as cheat sheet to learn and apply Python concepts.
 
 ***
+<p>Changes are being made to improve it. You can review the Google Sheet file [here](https://docs.google.com/spreadsheets/d/15OsctDhIXPZQIy7XZf5fmtCWbniwCRHD3kmmxfda_sE/edit?usp=sharing){:target="_blank"}. Feel free to contact me with suggestions.</p>
+
+***
 ## Elements covered in this cheat sheet
 
 <ul>
@@ -72,3 +75,9 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 | update() | Updates dictionary with specified key-val. pairs | dic.update({"age": "3"}) |
 | values() | Returns a list of all vals in  dictionary | x=dic.values() |
 
+
+***
+
+## Author
+---
+* Nefi Melgar (nefimelgarg@gmail.com)
