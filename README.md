@@ -6,6 +6,9 @@ Use this repo as cheat sheet to learn and apply Python concepts.
 
 <ul>
     <a href="#list-methods"><li>List Methods</li></a>
+    <a href="#tuple-methods"><li>Tuple Methods</li></a>
+    <a href="#set-methods"><li>Set Methods</li></a>
+    <a href="#dictionary-methods"><li>Dictionary Methods</li></a>
 </ul>
 
 ***
@@ -30,12 +33,12 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 |reverse() | Reverses order of list	| list.reverse() |
 |sort() | Sorts list | list.sort() |
 | **------** | **------** | **------** |
-| **Tuples** | Methods |  |
+| <span id="tuple-methods">**Tuples**</span> | Methods |  |
 | Tuple () | Are immutable | Accepts duplicate elements |
 | count() |	Returns # times a specified val. occurs	|x=tuple.count(5) |
 | index() | Searches tuple for specified val.- returns pos.where it was found | x=tuple.index(6) |
 | **------** | **------** | **------** |
-| **Sets** | Methods |  |
+| <span id="set-methods">**Sets**</span> | Methods |  |
 | Sets {} | No mutable | Doesn't accept duplicate elements |
 | add() | Adds an elems. | set.add('dog') |
 | clear() |	Removes all elems. | fruits.clear() |
@@ -55,7 +58,7 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 | union() | Return a set containing union of sets | z=x.union(y) |
 | update() | Update set with union of this set and others |	x.update(y) |
 | **------** | **------** | **------** |
-| **Dictionaries** | Methods |  |
+| <span id="dictionary-methods"> **Dictionaries**</span> | Methods |  |
 | dicts {key: value} | Are mutable | Not duplicate keys allowed |
 | clear() | Removes all  elems. from  dic. | dic.clear() |
 | copy() | Returns a copy of  dictionary | x=dic.copy() |
