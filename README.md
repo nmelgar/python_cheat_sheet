@@ -5,7 +5,7 @@ Use this repo as cheat sheet to learn and apply Python concepts.
 ## Elements covered in this cheat sheet
 
 <ul>
-    <li>[List Methods](#list-methods)</li>
+    <a href="#list-methods"><li>List Methods</li></a>
 </ul>
 
 ***
@@ -16,7 +16,7 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 
 | Element | Description | Example |
 |---------|------------ |---------|
-| ##**Lists** {#list-methods}| Methods |  |
+| <span id="list-methods">**Lists**</span> | Methods |  |
 | List [ ] | Are mutable | Accepts duplicate elements |
 |append() | Adds to end list | list.append('dog') |
 |clear()| Removes all | list.clear() |
