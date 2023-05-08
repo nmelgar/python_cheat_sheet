@@ -2,7 +2,7 @@
 Use this repo as cheat sheet to learn and apply Python concepts.
 
 ***
-<p>Changes are being made to improve it. You can review the Google Sheet file [here](https://docs.google.com/spreadsheets/d/15OsctDhIXPZQIy7XZf5fmtCWbniwCRHD3kmmxfda_sE/edit?usp=sharing){:target="_blank"}. Feel free to contact me with suggestions.</p>
+<p>Changes are being made to improve it. You can review the google sheet file <a target="_blank" href="https://docs.google.com/spreadsheets/d/15OsctDhIXPZQIy7XZf5fmtCWbniwCRHD3kmmxfda_sE/edit?usp=sharing">here</a>. Feel free to contact me with suggestions.</p>
 
 ***
 ## Elements covered in this cheat sheet
