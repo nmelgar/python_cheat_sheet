@@ -8,7 +8,7 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 
 | Element | Description | Example |
 |---------|------------ |---------|
-| List | Methods |  |
+| **List** | Methods |  |
 | List [ ] | Are mutable | Accepts duplicate elements |
 |append() | Adds to end list | list.append('dog') |
 |clear()| Removes all | list.clear() |
@@ -22,12 +22,12 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 |reverse() | Reverses order of list	| list.reverse() |
 |sort() | Sorts list | list.sort() |
 | --- | --- | --- |
-| Tuples | Methods |  |
+| **Tuples** | Methods |  |
 | Tuple () | Are immutable | Accepts duplicate elements |
 | count() |	Returns # times a specified val. occurs	|x=tuple.count(5) |
 | index() | Searches tuple for specified val.- returns pos.where it was found | x=tuple.index(6) |
 | --- | --- | --- |
-| Sets | Methods |  |
+| **Sets** | Methods |  |
 | Sets {} | No mutable | Doesn't accept duplicate elements |
 | add() | Adds an elems. | set.add('dog') |
 | clear() |	Removes all elems. | fruits.clear() |
@@ -46,4 +46,18 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 | symmetric_difference_update() | inserts symmetric differences from this set and another | x.symmetric_difference_update(y) |
 | union() | Return a set containing union of sets | z=x.union(y) |
 | update() | Update set with union of this set and others |	x.update(y) |
+| --- | --- | --- |
+| **Dictionaries** | Methods |  |
+| dicts {key: value} | Are mutable | Not duplicate keys allowed |
+| clear() | Removes all  elems. from  dic. | dic.clear() |
+| copy() | Returns a copy of  dictionary | x=dic.copy() |
+| fromkeys() | Returns a dictionary with specified keys and val. | thisdict = dict.fromkeys(x, y) |
+| get() | Returns val. of specified key	| x=dic.get("name") |
+| items() | Returns a list containing a tuple for each key val. pair | x=dic.items() |
+| keys() | Returns a list containing  dictionary's keys	| x=dic.keys() |
+| pop() | Removes elems. with specified key	| dic.pop("name") |
+| popitem() | Removes last inserted key-val. pair | dic.popitem() |
+| setdefault() | Returns val. of specified key. If key does not exist: insert  key, with  specified val. | x=dic.setdefault("name", "Jun") |
+| update() | Updates dictionary with specified key-val. pairs | dic.update({"age": "3"}) |
+| values() | Returns a list of all vals in  dictionary | x=dic.values() |
 
