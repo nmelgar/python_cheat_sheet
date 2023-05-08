@@ -2,13 +2,21 @@
 Use this repo as cheat sheet to learn and apply Python concepts.
 
 ***
+## Elements covered in this cheat sheet
+
+<ul>
+    <li>[List Methods](#list-methods)</li>
+</ul>
+
+***
 
 elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # = number(s) |
 
+***
 
 | Element | Description | Example |
 |---------|------------ |---------|
-| **List** | Methods |  |
+| ##**Lists** {#list-methods}| Methods |  |
 | List [ ] | Are mutable | Accepts duplicate elements |
 |append() | Adds to end list | list.append('dog') |
 |clear()| Removes all | list.clear() |
@@ -21,12 +29,12 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 |remove() | Removes item with specified val. | list.remove('dog') |
 |reverse() | Reverses order of list	| list.reverse() |
 |sort() | Sorts list | list.sort() |
-| --- | --- | --- |
+| **------** | **------** | **------** |
 | **Tuples** | Methods |  |
 | Tuple () | Are immutable | Accepts duplicate elements |
 | count() |	Returns # times a specified val. occurs	|x=tuple.count(5) |
 | index() | Searches tuple for specified val.- returns pos.where it was found | x=tuple.index(6) |
-| --- | --- | --- |
+| **------** | **------** | **------** |
 | **Sets** | Methods |  |
 | Sets {} | No mutable | Doesn't accept duplicate elements |
 | add() | Adds an elems. | set.add('dog') |
@@ -46,7 +54,7 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 | symmetric_difference_update() | inserts symmetric differences from this set and another | x.symmetric_difference_update(y) |
 | union() | Return a set containing union of sets | z=x.union(y) |
 | update() | Update set with union of this set and others |	x.update(y) |
-| --- | --- | --- |
+| **------** | **------** | **------** |
 | **Dictionaries** | Methods |  |
 | dicts {key: value} | Are mutable | Not duplicate keys allowed |
 | clear() | Removes all  elems. from  dic. | dic.clear() |
