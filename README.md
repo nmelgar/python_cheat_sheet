@@ -12,6 +12,10 @@ Use this repo as cheat sheet to learn and apply Python concepts.
     <a href="#tuple-methods"><li>Tuple Methods</li></a>
     <a href="#set-methods"><li>Set Methods</li></a>
     <a href="#dictionary-methods"><li>Dictionary Methods</li></a>
+    <a href="#string-methods"><li>String Methods</li></a>
+    <a href="#file-methods"><li>File Methods</li></a>
+    <a href="#builtin-functions"><li>Built-in Functions</li></a>
+    
 </ul>
 
 ***
@@ -20,6 +24,7 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 
 ***
 
+**Lists**
 | Element | Description | Example |
 |---------|------------ |---------|
 | <span id="list-methods">**Lists**</span> | Methods |  |
@@ -35,12 +40,18 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 |remove() | Removes item with specified val. | list.remove('dog') |
 |reverse() | Reverses order of list	| list.reverse() |
 |sort() | Sorts list | list.sort() |
-| **------** | **------** | **------** |
+
+**Tuples**
+| Element | Description | Example |
+|---------|------------ |---------|
 | <span id="tuple-methods">**Tuples**</span> | Methods |  |
 | Tuple () | Are immutable | Accepts duplicate elements |
 | count() |	Returns # times a specified val. occurs	|x=tuple.count(5) |
 | index() | Searches tuple for specified val.- returns pos.where it was found | x=tuple.index(6) |
-| **------** | **------** | **------** |
+
+**Sets**
+| Element | Description | Example |
+|---------|------------ |---------|
 | <span id="set-methods">**Sets**</span> | Methods |  |
 | Sets {} | No mutable | Doesn't accept duplicate elements |
 | add() | Adds an elems. | set.add('dog') |
@@ -60,7 +71,10 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 | symmetric_difference_update() | inserts symmetric differences from this set and another | x.symmetric_difference_update(y) |
 | union() | Return a set containing union of sets | z=x.union(y) |
 | update() | Update set with union of this set and others |	x.update(y) |
-| **------** | **------** | **------** |
+
+**Dictionaries**
+| Element | Description | Example |
+|---------|------------ |---------|
 | <span id="dictionary-methods"> **Dictionaries**</span> | Methods |  |
 | dicts {key: value} | Are mutable | Not duplicate keys allowed |
 | clear() | Removes all  elems. from  dic. | dic.clear() |
@@ -75,6 +89,20 @@ elem. = element(s) | val. = value(s) | pos. = position | dic. = dictionary | # =
 | update() | Updates dictionary with specified key-val. pairs | dic.update({"age": "3"}) |
 | values() | Returns a list of all vals in  dictionary | x=dic.values() |
 
+**Strings**
+| Element | Description | Example |
+|---------|------------ |---------|
+| <span id="string-methods"> **Strings**</span> | Methods |  |
+
+**Files**
+| Element | Description | Example |
+|---------|------------ |---------|
+| <span id="file-methods"> **Files**</span> | Methods |  |
+
+**Built-in Functions**
+| Element | Description | Example |
+|---------|------------ |---------|
+| <span id="#builtin-functions"> **Built-in Functions**</span> |  |  |
 
 ***
 
